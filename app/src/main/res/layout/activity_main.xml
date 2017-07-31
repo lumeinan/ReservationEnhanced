@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/Name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Please enter your name" />
+
+    <TextView
+        android:id="@+id/MobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone" />
+
+    <EditText
+        android:id="@+id/MobileNo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Please enter your phone number" />
+
+    <TextView
+        android:id="@+id/GroupSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/GroupSize1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint=""
+            android:inputType="textPersonName" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSmoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Smoking" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Day" />
+
+    <EditText
+        android:id="@+id/editTextDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Click here to select day" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Click here to select time"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonReserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reserve" />
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reset" />
+    </LinearLayout>
+
+</LinearLayout>
